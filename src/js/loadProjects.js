@@ -83,7 +83,6 @@ function createCar(){
     libImage.setAttribute("src", "./library.jpg")
     libImage.setAttribute("alt", "Library")
     libImage.setAttribute("style", "width:40%")
-    library.setAttribute("style", "height:300px")
     libLink.appendChild(libImage)
 
 
