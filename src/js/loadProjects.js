@@ -85,6 +85,33 @@ function createCar(){
     libLink.appendChild(libImage)
 
 
+    // left right arrows is el of carousel
+
+    const left = document.createElement("button")
+    left.classList.add("carousel-control-prev")
+    left.setAttribute("type", "button")
+    left.setAttribute("data-bs-target", "#carousel")
+    left.setAttribute("data-bs-slide", "prev")
+
+    carousel.appendChild(left)
+
+    const spanL = document.createElement("span")
+    spanL.classList.add("carousel-control-prev-icon")
+    left.appendChild(spanL)
+
+    const right = document.createElement("button")
+    right.classList.add("carousel-control-next")
+    right.setAttribute("type", "button")
+    right.setAttribute("data-bs-target", "#carousel")
+    right.setAttribute("data-bs-slide", "next")
+
+    carousel.appendChild(right)
+
+    const spanR = document.createElement("span")
+    spanR.classList.add("carousel-control-next-icon")
+    right.appendChild(spanR)
+
+
     return carousel
 }
 
