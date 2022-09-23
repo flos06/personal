@@ -64,7 +64,6 @@ function createCar(){
     ticImage.classList.add("d-block")
     ticImage.setAttribute("src", "./tictactoe.png")
     ticImage.setAttribute("alt", "Tic Tac Toe")
-    ticImage.setAttribute("style", "width:40%")
     ticImage.setAttribute("style", "height:300px")
     ticLink.appendChild(ticImage)
 
@@ -82,8 +81,7 @@ function createCar(){
     libImage.classList.add("d-block")
     libImage.setAttribute("src", "./library.jpg")
     libImage.setAttribute("alt", "Library")
-    libImage.setAttribute("style", "width:40%")
-    library.setAttribute("style", "height:300px")
+    libImage.setAttribute("height", "300px")
     libLink.appendChild(libImage)
 
 
