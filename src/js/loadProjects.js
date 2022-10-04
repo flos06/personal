@@ -9,7 +9,7 @@ function createProjects() {
     project.classList.add("projects")
     const text = document.createElement("p")
     text.classList.add("text-center")
-    text.textContent = "Hier vind je een overzicht van alle projecten waar ik tot nu toe aan heb gewerkttttt."
+    text.textContent = "Hier vind je een aantal van mijn projecten"
     project.appendChild(text)
 
     project.appendChild(createCar());

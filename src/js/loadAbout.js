@@ -10,7 +10,7 @@ function createAbout() {
 
     const name = document.createElement("p")
     name.classList.add("text-center")
-    name.innerHTML = `Hallo, mijn naam is Floris de Regt. \nIk ben geboren op 12 mei 1993 en ben nu 29 jaar.`
+    name.innerHTML = "<img src=\"./fotocv.png\" class=\"img-fluid\" alt=\"Curriculum Vitae\">"
     about.appendChild(name)
     return about
 }

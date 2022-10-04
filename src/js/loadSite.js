@@ -56,7 +56,7 @@ function createHeader() {
     const butAbout = document.createElement("a")
     butAbout.classList.add("nav-item", "nav-link")
     butAbout.setAttribute("href", "#")
-    butAbout.textContent = "About"
+    butAbout.textContent = "Curriculum Vitae"
 
     butAbout.addEventListener("click", (e) => {
         if (e.target.classList.contains("active")) return;
@@ -70,7 +70,7 @@ function createHeader() {
     const projects = document.createElement("a")
     projects.classList.add("nav-item", "nav-link")
     projects.setAttribute("href", "#")
-    projects.textContent = "Projects"
+    projects.textContent = "Projecten"
 
     projects.addEventListener("click", (e) => {
         if (e.target.classList.contains("active")) return;
